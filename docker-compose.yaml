@@ -1,0 +1,7 @@
+version: '3'
+services:
+  phpcli:
+    image: php:8.0.1-cli
+    working_dir: /code
+    volumes:
+    - .:/code
